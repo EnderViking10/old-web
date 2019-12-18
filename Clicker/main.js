@@ -67,7 +67,7 @@ function run(){
 		bar[i] = document.getElementById("bar" + (i+1));
 		
 		progress[i] += inc[i];
-		
+	
 		if(progress[i] > 100){
 			progress[i] = 0;
 			switch(i){
@@ -103,7 +103,9 @@ function run(){
 					break;
 			}
 		}
-		
+		if(inc[i] < 201)
 		bar[i].style.width = progress[i] + "%";
+            else
+                bar[i].style.width = "100%";
 	}
 }
