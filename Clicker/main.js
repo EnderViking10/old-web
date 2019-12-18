@@ -45,11 +45,11 @@
 			c.fillStyle = "white";
 			if(i <= 4){
 				c.textAlign = "left";
-				c.fillText(inc[i],340,140+(90*i));
+				c.fillText(num[i],340,140+(90*i));
 			}
 			else{
 				c.textAlign = "right";
-				c.fillText(Math.ceil(inc[i]),460,140+(90*(i-5)));
+				c.fillText(num[i],460,140+(90*(i-5)));
 			}
 			c.closePath();
 		}
