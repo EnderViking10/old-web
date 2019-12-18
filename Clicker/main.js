@@ -45,11 +45,11 @@
 			c.fillStyle = "white";
 			if(i <= 4){
 				c.textAlign = "left";
-				c.fillText(inc[i]*2,340,140+(90*i));
+				c.fillText(inc[i],340,140+(90*i));
 			}
 			else{
 				c.textAlign = "right";
-				c.fillText(inc[i]*2,460,140+(90*(i-5)));
+				c.fillText(Math.ceil(inc[i]),460,140+(90*(i-5)));
 			}
 			c.closePath();
 		}
@@ -104,8 +104,8 @@ function run(){
 			}
 		}
 		if(inc[i] < 201)
-		bar[i].style.width = progress[i] + "%";
-            else
-                bar[i].style.width = "100%";
+			bar[i].style.width = progress[i] + "%";
+		else
+			bar[i].style.width = "100%";
 	}
 }
