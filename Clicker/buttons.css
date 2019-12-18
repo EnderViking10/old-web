@@ -1,0 +1,307 @@
+/* Level 1 button attributes */
+.level1 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 48px;
+	top: 128px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 9px #999;
+}
+
+.level1:hover {background-color: #cc0000}
+
+.level1:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 2 button attributes */
+.level2 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 48px;
+	top: 218px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level2:hover {background-color: #cc0000}
+
+.level2:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 3 button attributes */
+.level3 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	ffont-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 48px;
+	top: 308px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level3:hover {background-color: #cc0000}
+
+.level3:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 3 button attributes */
+.level3 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 48px;
+	top: 308px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level3:hover {background-color: #cc0000}
+
+.level3:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 4 button attributes */
+.level4 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 48px;
+	top: 398px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level4:hover {background-color: #cc0000}
+
+.level4:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 5 button attributes */
+.level5 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 48px;
+	top: 488px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level5:hover {background-color: #cc0000}
+
+.level5:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 6 button attributes */
+.level6 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 488px;
+	top: 128px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level6:hover {background-color: #cc0000}
+
+.level6:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 7 button attributes */
+.level7 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 488px;
+	top: 218px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level7:hover {background-color: #cc0000}
+
+.level7:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 8 button attributes */
+.level8 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 488px;
+	top: 308px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level8:hover {background-color: #cc0000}
+
+.level8:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 9 button attributes */
+.level9 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 488px;
+	top: 398px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level9:hover {background-color: #cc0000}
+
+.level9:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/* Level 10 button attributes */
+.level10 {
+	display: inline-block;
+	height: 61px;
+	width: 90px;
+	font-size: 27px;
+	cursor: pointer;
+	position: absolute;
+	left: 488px;
+	top: 488px;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #ff0000;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+.level10:hover {background-color: #cc0000}
+
+.level10:active {
+	background-color: #cc0000;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}

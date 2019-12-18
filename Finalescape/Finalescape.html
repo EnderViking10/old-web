@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<script src="Initialize.js"></script>
+	<script src="Players.js"></script>
+	<script src="Hitboxes.js"></script>
+	<script src="Lost.js"></script>
+	<script src="Inputs.js"></script>
+	<script src="Easter_egg.js"></script>
+</head>
+
+<body id="body" onload="initialize();">
+	<img id="guy" src = "img/guy.png" style="display:none;"/>
+	<img id="guard" src = "img/guard.png" style="display:none;"/>
+	<div id="container">
+		<canvas id="canvas" width="900px" height="600px">
+			Browser does NOT support HTML5 Canvas
+		</canvas>
+	</div>
+	<button id="sna" onclick="sna()">Seven Nations Army</button>
+	<button id="fs" onclick="fs()">Fortuante Son</button>
+	<button id="stop" onclick="stop()">STOP</button>
+	<audio id="music1" src="music/music.mp3"/>
+	<audio id="music2" src="music/music2.mp3"/>
+</body>
+
+</html>
