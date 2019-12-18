@@ -97,10 +97,10 @@ function run(){
 					money += 640;
 					break;
 				case 8:
-					money += 3200;
+					money += 1280;
 					break;
 				case 9:
-					money += 6400;
+					money += 2560;
 					break;
 			}
 		}
