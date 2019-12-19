@@ -104,7 +104,7 @@ function run(){
 					break;
 			}
 		}
-		if(inc[i] < 201)
+		if(inc[i] < 100)
 			bar[i].style.width = progress[i] + "%";
 		else
 			bar[i].style.width = "100%";
