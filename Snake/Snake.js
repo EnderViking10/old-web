@@ -21,19 +21,35 @@ function initialize() {
 		
 		document.addEventListener("keydown", function(key){
 			switch(key.keyCode){
-				case UP || 38:
+				case 87: // w
 					dx = 0;
 					dy = -20;
 					break;
-				case DOWN:
+				case 83: // s
 					dx = 0;
 					dy = 20;
 					break;
-				case LEFT:
+				case 65: // a
 					dx = -20;
 					dy = 0;
 					break;
-				case RIGHT:
+				case 68: // d
+					dx = 20;
+					dy = 0;
+					break;
+				case 38: // ua
+					dx = 0;
+					dy = -20;
+					break;
+				case 40: // da
+					dx = 0;
+					dy = 20;
+					break;
+				case 37: // la
+					dx = -20;
+					dy = 0;
+					break;
+				case 39: // ra
 					dx = 20;
 					dy = 0;
 					break;
