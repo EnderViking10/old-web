@@ -1,9 +1,8 @@
 var canvas, c;
 var midx, midy, cw, ch;
 var pi = Math.PI;
-var UP = 87, DOWN = 83, LEFT = 65, RIGHT = 68;
 var snake = [ {x: 20, y: 20} ];
-var dx = 20, dy = 0;
+var dx = 0, dy = 0;
 var foodX  = 20*parseInt(Math.random()*40), foodY = 20*parseInt(Math.random()*30);
 var score = 0;
 
@@ -49,11 +48,13 @@ function initialize() {
 					dx = -20;
 					dy = 0;
 					break;
-				case 39: // ra
+				case 	39: // ra
 					dx = 20;
 					dy = 0;
 					break;
 			}
+			if(key.keyCode == 82)
+				reset();
 		});
 
 		window.setInterval("drawScreen()",1000/10);  // call repeatedly
@@ -78,8 +79,8 @@ function drawScreen() {
 
    // Draws and moves snake
 
-	advanceSnake();
 	snake.forEach(drawSnake);
+	advanceSnake();
 
   // Draws food
 
@@ -114,7 +115,7 @@ function advanceSnake() {
 
 function gameEnd() { 
 	for(let i = 1; i < snake.length; i++){
-		if (snake[i].x === snake[0].x && snake[i].y === snake[0].y) 
+		if (snake[i].x == snake[0].x && snake[i].y == snake[0].y) 
 			return true;  
 	}
 	const hitLeftWall = snake[0].x < 0;  
@@ -123,6 +124,14 @@ function gameEnd() {
 	const hitBottomWall = snake[0].y > ch - 20;
 
 	 return hitLeftWall || hitRightWall || hitToptWall || hitBottomWall
+}
+
+function reset(){
+	snake = [ {x: 20, y: 20} ];
+	foodX  = 20*parseInt(Math.random()*40);
+	foodY = 20*parseInt(Math.random()*30);
+	dx = 0;
+	dy = 0;
 }
 
 function looser(){
