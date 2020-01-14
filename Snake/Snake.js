@@ -1,6 +1,7 @@
 var canvas, c;
 var midx, midy, cw, ch;
 var pi = Math.PI;
+var UP = 87 || 38, DOWN = 83 || 40, LEFT = 65 || 37, RIGHT = 68 || 39
 var snake = [ {x: 20, y: 20} ];
 var dx = 20, dy = 0;
 var foodX  = 20*parseInt(Math.random()*40), foodY = 20*parseInt(Math.random()*30);
@@ -20,19 +21,19 @@ function initialize() {
 		
 		document.addEventListener("keydown", function(key){
 			switch(key.keyCode){
-				case 87: // a
+				case LEFT:
 					dx = 0;
 					dy = -20;
 					break;
-				case 83: // d
+				case RIGHT:
 					dx = 0;
 					dy = 20;
 					break;
-				case 65: // w
+				case UP:
 					dx = -20;
 					dy = 0;
 					break;
-				case 68: // s
+				case DOWN:
 					dx = 20;
 					dy = 0;
 					break;
