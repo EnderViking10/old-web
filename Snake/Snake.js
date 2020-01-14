@@ -96,6 +96,7 @@ function drawSnake(sp){
 
 	c.beginPath();
 	c.fillStyle = "white";
+	c.strokeStyle = "black";
 	c.fillRect(sp.x, sp.y, 20, 20);
 	c.strokeRect(sp.x, sp.y, 20, 20);
 	c.closePath();
